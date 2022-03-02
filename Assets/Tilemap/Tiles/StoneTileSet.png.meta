@@ -14,6 +14,30 @@ TextureImporter:
   - first:
       213: 3772835704287192641
     second: StoneTileSet_3
+  - first:
+      213: 8201213380914389413
+    second: StoneTileSet_4
+  - first:
+      213: -6505716987818843801
+    second: StoneTileSet_5
+  - first:
+      213: -761546817133806204
+    second: StoneTileSet_6
+  - first:
+      213: 6910914150594790438
+    second: StoneTileSet_7
+  - first:
+      213: -3643244273729398323
+    second: StoneTileSet_8
+  - first:
+      213: -6353823425563728465
+    second: StoneTileSet_9
+  - first:
+      213: -1439695844170822901
+    second: StoneTileSet_10
+  - first:
+      213: 6383959858537733394
+    second: StoneTileSet_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -103,7 +127,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 8
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -128,7 +152,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 8
-        y: 8
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -136,9 +160,11 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -4, y: -4}
+      - - {x: -4, y: -3.3534737}
+        - {x: -4, y: -4}
         - {x: 4, y: -4}
-        - {x: 4, y: 4}
+        - {x: 4, y: 0.15342903}
+        - {x: 2.0724144, y: -0.20864296}
       tessellationDetail: 0
       bones: []
       spriteID: 786a872de7e569610800000000000000
@@ -151,8 +177,8 @@ TextureImporter:
       name: StoneTileSet_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 16
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -160,9 +186,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -4, y: 4}
+      - - {x: -4, y: -0.055215836}
         - {x: -4, y: -4}
-        - {x: 4, y: -4}
+        - {x: 3.990057, y: -4}
+        - {x: 3.9637928, y: 0.019008636}
       tessellationDetail: 0
       bones: []
       spriteID: 436d6d597718488d0800000000000000
@@ -175,8 +202,8 @@ TextureImporter:
       name: StoneTileSet_3
       rect:
         serializedVersion: 2
-        x: 8
-        y: 0
+        x: 24
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -186,12 +213,230 @@ TextureImporter:
       physicsShape:
       - - {x: -4, y: -4}
         - {x: 4, y: -4}
-        - {x: 4, y: -0.02222228}
+        - {x: -2.481104, y: -0.017196655}
         - {x: -4, y: 0}
       tessellationDetail: 0
       bones: []
       spriteID: 146e2fd651ecb5430800000000000000
       internalID: 3772835704287192641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneTileSet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a125983e1090d170800000000000000
+      internalID: 8201213380914389413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneTileSet_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76165db4edc07b5a0800000000000000
+      internalID: -6505716987818843801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneTileSet_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1.9699326, y: 4}
+        - {x: 1.9806747, y: 1.9032288}
+        - {x: 0.1086216, y: 1.8637695}
+        - {x: -0.0752182, y: -0.035032272}
+        - {x: -1.8619938, y: -0.100717545}
+        - {x: -1.923563, y: -2.2165222}
+        - {x: -3.9637928, y: -2.1000233}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48df8e464317e65f0800000000000000
+      internalID: -761546817133806204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneTileSet_7
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: -1.8827801}
+        - {x: 2.03965, y: -1.8347111}
+        - {x: 1.8852634, y: 0.047582626}
+        - {x: 0.07660866, y: 0.105285645}
+        - {x: 0.07598305, y: 1.8807926}
+        - {x: -1.8207493, y: 1.8613319}
+        - {x: -1.9189873, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6244c6bedcf78ef50800000000000000
+      internalID: 6910914150594790438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneTileSet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1.06721, y: 3.8913774}
+        - {x: -3.9701073, y: 0.9213934}
+        - {x: -3.8424258, y: -0.8138571}
+        - {x: -0.9585881, y: -3.818963}
+        - {x: 1.1034169, y: -3.637927}
+        - {x: 4, y: -0.83797264}
+        - {x: 3.930956, y: 0.942729}
+        - {x: 3.1865087, y: 1.7464037}
+        - {x: 1.9649673, y: 2.9373264}
+        - {x: 1.0810142, y: 3.7465487}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc91262c2a8907dc0800000000000000
+      internalID: -3643244273729398323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneTileSet_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2.0448065, y: 3.8913784}
+        - {x: -4, y: 1.7575836}
+        - {x: -3.6991777, y: -1.7845697}
+        - {x: -1.7913561, y: -3.9275856}
+        - {x: 1.6465263, y: -3.818963}
+        - {x: 3.7766838, y: -2.0385752}
+        - {x: 3.7839632, y: 1.8744831}
+        - {x: 1.7913551, y: 3.9275846}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5e7b9224fa2d7a0800000000000000
+      internalID: -6353823425563728465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneTileSet_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2.9137802, y: 2.6241226}
+        - {x: 0.027791977, y: -0.3376112}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 2.8413658, y: 0.13102531}
+        - {x: -0.8465729, y: 2.9499884}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b879fe14c250ce0800000000000000
+      internalID: -1439695844170822901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneTileSet_11
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d9e7ceaa1689850800000000000000
+      internalID: 6383959858537733394
       vertices: []
       indices: 
       edges: []
