@@ -21,6 +21,8 @@ namespace TarodevController
         public Vector3 RawMovement { get; private set; }
         public bool Grounded => _colDown;
 
+        public Animator playerAnim;
+
         private Vector3 _lastPosition;
         private float _currentHorizontalSpeed, _currentVerticalSpeed;
 
@@ -45,6 +47,7 @@ namespace TarodevController
             CalculateJump(); // Possibly overrides vertical
 
             MoveCharacter(); // Actually perform the axis movement
+            SendAnimationVals(); // Update animation parameters
         }
 
 
@@ -331,6 +334,14 @@ namespace TarodevController
 
                 positionToMoveTo = posToTry;
             }
+        }
+
+        #endregion
+
+        #region Animation
+        private void SendAnimationVals()
+        {
+            playerAnim.SetFloat("horizontalSpeed", _currentHorizontalSpeed);
         }
 
         #endregion
