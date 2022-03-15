@@ -65,6 +65,14 @@ namespace TarodevController
             {
                 _lastJumpPressed = Time.time;
             }
+            if (Input.X > 0)
+            {
+                transform.eulerAngles = new Vector3(transform.rotation.x, 0, transform.rotation.z);
+            }
+            if (Input.X < 0)
+            {
+                transform.eulerAngles = new Vector3(transform.rotation.x, -180, transform.rotation.z);
+            }
         }
 
         #endregion
@@ -85,7 +93,7 @@ namespace TarodevController
         // We use these raycast checks for pre-collision information
         private void RunCollisionChecks()
         {
-            // Generate ray ranges. 
+            // Generate ray ranges.
             CalculateRayRanged();
 
             // Ground
@@ -113,7 +121,7 @@ namespace TarodevController
 
         private void CalculateRayRanged()
         {
-            // This is crying out for some kind of refactor. 
+            // This is crying out for some kind of refactor.
             var b = new Bounds(transform.position + _characterBounds.center, _characterBounds.size);
 
             _raysDown = new RayRange(b.min.x + _rayBuffer, b.min.y, b.max.x - _rayBuffer, b.min.y, Vector2.down);
@@ -339,9 +347,11 @@ namespace TarodevController
         #endregion
 
         #region Animation
+
+
         private void SendAnimationVals()
         {
-            playerAnim.SetFloat("horizontalSpeed", _currentHorizontalSpeed);
+            playerAnim.SetFloat("horizontalSpeed", Mathf.Abs(_currentHorizontalSpeed));
         }
 
         #endregion
